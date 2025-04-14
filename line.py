@@ -13,7 +13,7 @@ def line():
     print(f'\tY = {A}X + {float(B)}')
     print()
     print("Dados los siguientes puntos:")
-    print(f'\tP1({float(X1)}, {float(X1*A+B)})')
+    print(f'\tP1 ({float(X1)}, {float(X1*A+B)})')
     print(f'\tP2 ({float(X2)}, {float(X2*A+B)})')
     print()
     distancia = math.dist([X1, X1*A+B], [X2, X2*A+B])
